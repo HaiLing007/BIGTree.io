@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>跳转页面示例</title>
+  <title>新网页示例</title>
   <style>
     /* 页面整体样式 */
     body {
@@ -14,21 +14,31 @@
       background-color: #f4f4f4;
     }
 
+    /* 标题样式 */
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-top: 50px;
+    }
+
+    /* 按钮样式 */
     button {
-      padding: 10px 20px; /* 设置按钮内边距，让按钮看起来更合适 */
-      background-color: #4CAF50; /* 设置按钮背景颜色，这里是绿色，可修改 */
-      color: white; /* 设置按钮文字颜色 */
-      border: none; /* 去掉按钮默认边框 */
-      border-radius: 5px; /* 让按钮边角圆润一些，更美观 */
-      cursor: pointer; /* 鼠标悬停时变为手型指针，表示可点击 */
+      display: block;
+      margin: 30px auto;
+      padding: 15px 30px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
     }
   </style>
 </head>
 
 <body>
-  <h1>欢迎来到本页面</h1>
-  <p>点击下面的按钮即可跳转到指定页面。</p>
-  <button onclick="window.location.href='https://hailing007.github.io/BIGTree/'">跳转到大树项目页面</button>
+  <h1>欢迎来到新网页</h1>
+  <button onclick="window.location.href='https://hailing007.github.io/BIGTree/'" target="_blank">点击跳转至目标页面</button>
 </body>
 
 </html>
